@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.linting.pylintArgs": [
+			"--rcfile=linting/.pylintrc"
+		],
+		"ignitionFlint.sslVerify": false,
+		"ignitionFlint.ignitionGateways": [
+			{
+				"label": "FLCC",
+				"address": "https://ign-tag-ci-cd.localtest.me",
+				"projectPaths": [
+					"./ignition-data/projects/ign-tag-ci-cd"
+				],
+				"updateDesignerOnSave": true,
+				"forceUpdateDesigner": false,
+				"supportsProjectScanEndpoint": true
+			}
+		]
+	}
+}
