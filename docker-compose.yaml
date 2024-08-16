@@ -7,7 +7,7 @@ services:
       - ./ignition-data:/workdir
       - ./backups/gateway.gwbk:/restore.gwbk
       - ./third-party-modules:/modules
-      - ./ignition-data/tags:/workdir/tags
+      - ./tags:/tags
     environment:
       SYMLINK_GITIGNORE: false
       SYMLINK_LOGBACK: false
